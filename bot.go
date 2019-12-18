@@ -132,6 +132,9 @@ func (bb *BasicBot) HandleChat() error {
 								fmt.Printf("[%s] Shutdown command receieved. Shutting down now...\n", timeStamp())
 								bb.Disconnect()
 								return nil
+							case "ping":
+								bb.Say("pong")
+								return nil
 							default:
 								// do nothing
 							}
