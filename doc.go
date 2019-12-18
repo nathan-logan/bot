@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/shadeyrl/go-twitch-bot"
+	"github.com/shadeyrl/bot"
 	"time"
 )
 
