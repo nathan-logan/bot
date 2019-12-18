@@ -134,7 +134,6 @@ func (bb *BasicBot) HandleChat() error {
 								return nil
 							case "ping":
 								bb.Say("pong")
-								return nil
 							default:
 								// do nothing
 							}
